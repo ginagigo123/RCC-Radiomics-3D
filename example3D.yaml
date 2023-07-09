@@ -1,0 +1,27 @@
+
+imageType:
+  Original: {}
+  LoG:
+    sigma: [1.0, 2.0, 3.0, 4.0, 5.0]  # If you include sigma values >5, remember to also increase the padDistance.
+  Wavelet: {}
+
+
+featureClass:
+  glcm:
+  glrlm: []
+  firstorder: []
+  shape: []
+
+
+setting:
+  binWidth: 25
+  force2D: true
+  label: 2
+  voxelArrayShift: 1000 # this is to prevent negative values
+  # resampledPixelSpacing: [3, 3, 3] # 4,4,4
+
+# voxelSetting:
+#   kernelRadius: 2
+#   maskedKernel: true
+#   initValue: nan
+#   voxelBatch: 10000
