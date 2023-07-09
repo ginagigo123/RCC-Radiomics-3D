@@ -7,7 +7,7 @@ We had implemented 3 different experiments.
 3. Task - Low Grade v.s High Grade
 
 ## Data
-Please put data in the `inputs/` folder. The example data comes from KiTS datasets.
+Please put data in the `inputs/` folder. The example data comes from KiTS datasets. Please download the `img_case_0.nii.gz` file [here](https://drive.google.com/file/d/1YMkDObtnUcdLIiUebf6PdOe0Bdr4ragn/view?usp=sharing). The file is too large and can not be uploaded to Github.
 
 ## Installation
 There are 2 env we should install.
