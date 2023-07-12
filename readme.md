@@ -12,16 +12,10 @@ Please put data in the `inputs/` folder. The example data comes from KiTS datase
 ## Installation
 There are 2 env we should install.
 1. Monai (include CC3D):
-```
-conda create -n monai --file monai_requirements.txt
-```
-It will create an env called `monai`.
+Please follow the installation of official website [here](https://docs.monai.io/en/stable/installation.html).
 
 2. Radiomics
-```
-conda create -n radiomics --file radiomics_requirements.txt
-```
-It will create an env called `radiomics`.
+Please follow the installation [here](https://github.com/LinYuXuan-judy/KidneyTumorclassification).
 
 ## Exeperiment Process
 ![](image\image.png)
