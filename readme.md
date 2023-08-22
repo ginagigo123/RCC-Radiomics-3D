@@ -18,7 +18,7 @@ Please follow the installation of official website [here](https://docs.monai.io/
 Please follow the installation [here](https://github.com/LinYuXuan-judy/KidneyTumorclassification).
 
 ## Exeperiment Process
-![](image\image.png)
+![process](image\image.png)
 
 Data (Ct image and segmentation) -> Preprocessing `connected_component_cropped.ipynb` -> Cropped Data (both CT image and segmentation) -> Radiomics feature extract `radiomics_3D.py` -> Model predict `predict_radiomics.py` -> export table `export_general.py` & `export_lowPR.py`
 
@@ -34,7 +34,7 @@ And run all the cell in `connected_component_cropped.ipynb`
 
 After running, the cropped image will show in the `inputs/img/` folder.
 
-![](image\case_00000.png)
+![case](image\case_00000.png)
 
 ### Preprocessing: Radiomics
 Radiomics will extract the 3D features and generate approximately 580 features in total.
@@ -47,13 +47,13 @@ python preprocessing/radiomics_3D.py
 ```
 
 If we visualize the process, it will be like:
-![](image\extraction.png)
+![extraction](image\extraction.png)
 
 ### Prediction
 In model training, the Deep Profiler will be used and it based on the `monai` framework. So, here activate the env `monai` first.
 
 The Deep Profiler structure:
-![](image\model.png)
+![model](image\model.png)
 
 Before running the prediction, there are some args you can set:
 ```
